@@ -1,15 +1,15 @@
 TASK 1
 
-Images: Provided in Zip File
-Photoshop File: Provided in Zip File
-Fonts: Karla Regular, Karla Bold (available for free via Google Fonts)
+[X] Images: Provided in Zip File
+[X] Photoshop File: Provided in Zip File
+[X] Fonts: Karla Regular, Karla Bold (available for free via Google Fonts)
 
 Task: Develop an HTML page based off the design. Make sure it is responsive using Bootstrap, and pixel perfect to the design.
 
 To be done:
 – Menu bar fixed to bottom of the page upon arrival, should move up to top of page upon scroll, and once it hits the top of the page, should remain fixed at top of page.
 – Main image with CSS gradient overlay, full screen stretch
-– Use Bootstrap
+– [X] Use Bootstrap
 – No menu required
 – Responsive to tablet
 – Arrow scrolls you down the page so that the white nav bar is at top of the screen
@@ -31,7 +31,7 @@ How to Submit:
 – Email careers@verbalplusvisual.com with a zip file of your final files
 
 
-TASK 2
+[X] TASK 2 
 
 Code problem: https://projecteuler.net/problem=1
 
