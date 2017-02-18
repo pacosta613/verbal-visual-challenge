@@ -1,3 +1,23 @@
 body {
   font-family: 'Karla', sans-serif;
 }
+
+.clothes-image {
+  background-image: url(../img/image1.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 100vh;
+}
+
+.clothes-image:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom, #ffffff 0%, #0000cd 40%);
+  opacity: .6;
+}
