@@ -21,3 +21,22 @@ body {
   background-image: linear-gradient(to bottom, #ffffff 0%, #0000cd 40%);
   opacity: .6;
 }
+
+/*.navbar-toggle {
+  display: block;
+  background-color: transparent;
+  border: none;
+  float: right;
+}*/
+
+.navbar-toggle {
+  display: block;
+  border: none;
+  padding: 21px 0;
+  margin: 0;
+}
+.navbar-toggle .icon-bar {
+  background-color: #103b58;
+  height: 3px;
+  width: 22px;
+}
