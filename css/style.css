@@ -21,8 +21,24 @@ body {
   background-image: linear-gradient(to bottom, #ffffff 0%, #0000cd 40%);
   opacity: .6;
 }
+
+nav {
+  width: 100%;
+  height: 50px;
+  border-radius: 0;
+}
+
+.navbar-custom {
+    -webkit-box-shadow: 0px 2px 8px #999;
+    -moz-box-shadow:    0px 2px 8px #999;
+    box-shadow:         0px 2px 8px #999;
+    z-index:999;
+}
+
 .navbar-brand {
   color: #777;
+  position: relative;
+  right: 40px;
 }
 
 #icon-bar {
@@ -32,7 +48,7 @@ body {
   cursor: pointer;
   position: absolute;
   top: 10px;
-  right: 60px;
+  right: 30px;
 }
 
 #icon-bar span {
@@ -41,4 +57,26 @@ body {
   background-color: #888;
   display: block;
   margin-top: 4px;
+}
+
+.image2 {
+  width: 100%;
+  margin-top: 40px;
+  max-width: 800px;
+  position: absolute;
+  text-align: center;
+  left: 250px;
+}
+
+.line-1 {
+  position: absolute;
+  top: 980px;
+  z-index: 1;
+  left: 230px;
+}
+.line-2 {
+  position: absolute;
+  bottom: -450px;
+  left: 950px;
+  z-index: 2;
 }

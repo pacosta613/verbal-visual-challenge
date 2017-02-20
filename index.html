@@ -11,6 +11,7 @@
 
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="jquery.lazyload.js" type="text/javascript"></script>
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -18,9 +19,8 @@
 <body>
 
   <div class="clothes-image"></div>
-  <header>
   <!-- HEADER AND NAVBAR -->
-  <nav class="navbar navbar-default" id="navbar">
+  <nav class="navbar navbar-default navbar-custom" id="navbar">
     <div class="container">
 
       <div class="navbar-header">
@@ -32,10 +32,22 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </div>
-
     </div>
   </nav>
-</header>
 
+  <div class="container">
+    <div class="text-center">
+      <h2>Second Section Header</h2>
+    </div>
+
+    <div class="image-container">
+      <div class="center">
+        <img class="image2" src="img/image2.jpg">
+        <img class="line-1" src="img/diagonal-line.png">
+        <img class="line-2" src="img/diagonal-line.png">
+      </div>
+    </div>
+
+  </div>
 </body>
 </html>
