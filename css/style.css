@@ -41,6 +41,56 @@ nav {
   right: 40px;
 }
 
+.first-section {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.first-section .head {
+  padding-left: 68px;
+  margin-top: 294px;
+  z-index: 20;
+}
+
+.first-section .head .row {
+  margin-bottom: 24px;
+}
+
+.first-section .head .head-message {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.first-section .head .sub-message {
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: -5px;
+}
+
+.first-section .head .our-buttons {
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.first-section .head .our-button {
+  display: inline-block;
+  width: 180px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.first-section .head .our-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 #icon-bar {
   display: inline-block;
   width: 20px;
@@ -57,6 +107,10 @@ nav {
   background-color: #888;
   display: block;
   margin-top: 4px;
+}
+
+#second-header {
+  color: #777;
 }
 
 .image2 {
