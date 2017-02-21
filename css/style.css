@@ -76,6 +76,27 @@ body {
   color: #000;
 }
 
+  /*Arrow*/
+
+.arrow-down {
+  position: relative;
+  /*position: absolute;*/
+  z-index: 1;  
+}
+
+a.arrow {
+  color: white;
+  font-size: 40px;
+  position: relative;
+
+}
+
+a.arrow:hover {
+  top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
   /*The NavBar*/
 
 nav {
