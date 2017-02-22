@@ -6,11 +6,19 @@ $(document).ready(function(){
   $(".arrow").click(function(e){
     e.preventDefault();
     $('html, body').animate({
-      scrollTop: $(".navbar-brand").offset().top
+      scrollTop: $("nav").offset().top
     }, 1000);
   });
 
-
+  $(window).on('scroll', function(){
+    var newHeight = $(window).height() - $("nav").height();
+    if ($(window).scrollTop() > newHeight) {
+      // debugger
+      $("nav").addClass('navbar-fixed');
+    } else {
+      $("nav").removeClass('navbar-fixed');
+    }
+  });
 
 
 });
