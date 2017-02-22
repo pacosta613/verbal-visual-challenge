@@ -2,10 +2,6 @@
 
 $(document).ready(function(){
 
-  $("#lazy").lazyload({
-    effect : "fadeIn"
-  });
-
   /*The Arrow Button*/
   $(".arrow").click(function(e){
     e.preventDefault();
@@ -26,5 +22,17 @@ $(document).ready(function(){
     }
   });
 
-  
+  $(window).scroll(function(){
+    var navHeight = $(".clothes-image").height() + -100;
+    if ($(this).scrollTop() >= navHeight) {
+      $(".image2").fadeIn(1000);
+      $(".line-1").fadeIn(1000);
+      $(".line-2").fadeIn(1000);
+    } else {
+      $(".image2").fadeOut(1000);
+      $(".line-1").fadeOut(1000);
+      $(".line-2").fadeOut(1000);
+    }
+  });
+
 });
