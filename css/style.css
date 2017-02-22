@@ -171,3 +171,28 @@ nav {
   left: 950px;
   z-index: 2;
 }
+
+ .footer {
+  text-align: center;
+  line-height: 20px;
+  min-height: 270px;
+  margin-top: 550px;
+ }
+
+ .footer a {
+  color: #103b58;
+ }
+
+.footer h1 {
+  font-size: 18px;
+}
+
+.footer ul.footer-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer ul.footer-links li {
+  font-size: 14px;
+}
+
