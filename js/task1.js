@@ -22,6 +22,8 @@ $(document).ready(function(){
     }
   });
 
+  /*Images2 and Lines*/
+
   $(window).scroll(function(){
     var navHeight = $(".clothes-image").height() + -100;
     if ($(this).scrollTop() >= navHeight) {
